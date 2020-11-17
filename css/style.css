@@ -1,0 +1,174 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+li{
+	list-style: none;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*navbar*/
+nav img{
+	width: 25%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.55);
+    margin-left: 45px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #47b953;
+    border-bottom: 2px solid #47b953 !important;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #979797;
+}
+
+/*banner*/
+.banner-section {
+    background: linear-gradient(136.73deg, #4D8CE0 5.52%, #0A3A79 72.57%);
+    padding: 170px 0px 25px;
+    color: #fff;
+}
+.banner-section h1 {
+    width: 50%;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.banner-section li {
+    list-style: disc;
+    padding-bottom: 17px;
+}
+
+.button{
+
+    padding-top: 30px;
+}
+.button a{
+	box-shadow: 0 10px 50px rgba(0, 0, 0, 0.08), 0 13px 45px rgba(0, 0, 0, 0.08);
+    color: #fff;
+    padding: 20px 70px;
+    background: #FF764B;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.button:hover{
+	transform: translateY(-5px);
+	transition: .3s;
+}
+.banner-content{
+	padding-left: 40px;
+}
+/*ecommerce-section*/
+.ecommerce-section{
+
+    background: #f8f9fa;
+}
+.ecommerce-content{
+	padding:50px 159px;
+	text-align: center;
+}
+.ecommerce-content h1 {
+    font-size: 35px;
+    line-height: 45px;
+    color: #3bb44a;
+}
+.ecommerce-content p{font-size: 18px;line-height: 33px;color: #75757e;}
+.ecommerce-content a {
+    color: #fff;
+    background: #47b953;
+}
+
+/*products-section*/
+.products-section{padding: 50px 0px;}
+.products-section h2{font-weight: 700;padding: 35px 0px;}
+.products-contents a{background: #47b953;}
+.products-contents img{}
+.products-contents p{
+	font-size: 18px;
+	line-height: 33px;
+	color: #75757e;
+	padding: 54px 130px;
+	padding-bottom: 0;
+}
+.products-contents .box-1{background: #fafafa;border: 1px solid #000;width: 62%;
+	margin: 0 auto;padding: 67px;}
+.products-contents .box-2{background: #fafafa;border: 1px solid #000;width: 69%;
+	margin: 0 auto;padding: 89px 0px;}
+
+	/*footer*/
+footer{
+
+    background: #F2F1F1;
+}
+footer strong{
+
+    color: #52525b;
+    font-size: 22px;
+}
+footer ul {
+    padding-bottom: 65px;
+}
+footer ul li{
+	
+    padding: 10px 0px;
+    color: #828286;
+}
+footer ul li a{
+    color: #828286;
+}
+footer ul li a:hover{
+    color: #47b953;
+}
+.divider{
+
+    margin: 0 auto;
+    width: 78%;
+    height: 3px;
+    background: #828286;
+    opacity: .5;
+}
+.bottom-footer{
+
+    padding-top: 42px;
+}
+.bottom-footer span{
+
+    font-size: 14px;
+    color: #828286;
+}
+.bottom-footer ul{
+	padding-bottom: 0;
+    display: block;
+    text-align: center;
+}
+.bottom-footer li{
+
+    display: inline-block;
+    margin-left: 30px;
+}
+.bottom-footer .fa{
+
+    font-size: 25px;
+}
+.mail{
+	color: #4681d6 !important;
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 0rem !important;
+}

@@ -1,0 +1,31 @@
+.product-banner{
+
+	padding-top: 121px;
+}
+.product-banner h1 {
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.product-banner-bg{
+	background: linear-gradient(160deg, rgba(255,255,255,1) 0%,rgba(255,255,255,1) 50%,rgba(242,242,242,1) 50%,rgba(242,242,242,1) 100%);
+	padding: 50px 0px;
+}
+.product-banner p {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+    text-align: left;
+    color: #75757e;
+    margin-bottom: 0;
+}
+.product-banner-img {
+    padding-left: 20%;
+}
+.box-1 {
+    width: 77% !important;
+}
+.box-2{
+	 width: 77% !important;
+	 padding: 75px 0px !important;
+}
